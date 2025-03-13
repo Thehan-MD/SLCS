@@ -13,5 +13,13 @@ document.querySelectorAll('.faq-question').forEach(button => {
   button.addEventListener('click', function () {
     const answer = this.nextElementSibling;
     answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+  }
+}
+    
+// Dark Mode Toggle
+const darkModeToggle = document.getElementById('dark-mode-toggle');
+darkModeToggle.addEventListener('click', function () {
+  document.body.classList.toggle('dark-mode');
+});
   });
 });
