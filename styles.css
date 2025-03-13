@@ -101,17 +101,3 @@ h1 {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Hide the loader when the page is loaded */
-body.loaded .loader {
-  display: none;
-}
-
-body.loaded .container {
-  display: block;
-}
