@@ -5,7 +5,8 @@ function toggleList(id) {
   } else {
     list.style.display = "none";
   });
-    document.querySelectorAll('.faq-question').forEach(button => {
+ 
+  document.querySelectorAll('.faq-question').forEach(button => {
   button.addEventListener('click', function () {
     const answer = this.nextElementSibling;
     answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
