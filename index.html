@@ -76,6 +76,24 @@
   </div>
 
   <button id="dark-mode-toggle">🌙</button>
+
+  <audio id="bg-music" src="background-music.mp3" loop></audio>
+
+<button id="play-btn" onclick="toggleMusic()" style="padding: 10px 20px; border: none; background-color: blue; color: white; border-radius: 15px;">🎵 Play / Pause Music</button>
+
+<script>
+    const music = document.getElementById("bg-music");
+    let isPlaying = false;
+
+    function toggleMusic() {
+        if (isPlaying) {
+            music.pause();
+        } else {
+            music.play();
+        }
+        isPlaying = !isPlaying;
+    }
+</script>
   
   <script src="script.js"></script>
 </body>
