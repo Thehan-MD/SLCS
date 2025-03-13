@@ -1,0 +1,66 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.about {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.pill-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.pill-button:hover {
+  transform: scale(1.05);
+}
+
+.pill-button:active {
+  background-color: #28a745;
+}
+
+.name-list {
+  display: none;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.name-list a {
+  text-decoration: none;
+  color: #007bff;
+  font-size: 14px;
+  padding: 10px;
+  border: 1px solid #007bff;
+  border-radius: 50px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.name-list a:hover {
+  background-color: #007bff;
+  color: white;
+}
