@@ -165,3 +165,7 @@ body.dark-mode .name-list a:hover {
   background-color: #ffffff;
   color: #333333;
 }
+
+#play-btn:hover {
+    background-color: green;
+}
