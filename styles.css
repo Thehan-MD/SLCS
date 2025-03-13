@@ -59,6 +59,27 @@ body {
 
 .name-list a {
   text-decoration: none;
+
+  /* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the container */
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out; /* Apply the fade-in animation */
+}
   color: #007bff;
   font-size: 14px;
   padding: 10px;
