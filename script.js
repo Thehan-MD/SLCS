@@ -4,5 +4,9 @@ function toggleList(id) {
     list.style.display = "flex";
   } else {
     list.style.display = "none";
+    // Hide the loader and show the content after the page loads
+window.addEventListener('load', function () {
+  document.body.classList.add('loaded');
+});
   }
 }
