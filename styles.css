@@ -92,3 +92,11 @@ body {
   background-color: #007bff;
   color: white;
 }
+
+h1 {
+  animation: fadeIn 2s ease-in-out; /* Slower fade-in for the heading */
+}
+
+.pill-button {
+  animation: fadeIn 2.5s ease-in-out; /* Even slower fade-in for buttons */
+}
