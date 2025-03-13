@@ -1,0 +1,2 @@
+# SLCS
+A simple website
